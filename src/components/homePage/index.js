@@ -10,6 +10,9 @@ const Home = () => {
         <Layout>
             <img src={BackgroundImage} alt="museum" ></img>
             <div className="home_title_wrapper">
+            <div className="menu_background">
+                <img src={BackgroundImage} alt="museum smaller pic"></img>
+            </div>
                <h1>
                WELCOME TO NATURAL HISTORY MUSEUM
                </h1> 
