@@ -13,6 +13,7 @@
   margin-right: 100px;
   margin-left: 100px;
   height: 696px;
+  z-index: 0;
 }
 
 .home_button {
@@ -25,8 +26,12 @@ p {
     opacity: 100%;
 }
 .menu_background {
+    position:relative;
+    z-index: 1;
+
     img {
+        position:relative;
         object-fit: fill;
+        z-index: 0;
     }
-    
 }
