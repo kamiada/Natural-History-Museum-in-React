@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Rambla&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rambla&display=swap");
 .home_title_wrapper {
   position: absolute;
   left: 0;
-  top: 20%;
+  top: 5%;
+  bottom: 20%;
   font-size: 50px;
   text-align: center;
   font-family: "Righteous", cursive;
@@ -17,21 +18,21 @@
 }
 
 .home_button {
-    font-family: 'Rambla', sans-serif;
-    font-size: 20px;
-    padding: 30px;
-    opacity: 50%;
+  font-family: "Rambla", sans-serif;
+  font-size: 20px;
+  padding: 30px;
+  opacity: 50%;
 }
 p {
-    opacity: 100%;
+  opacity: 100%;
 }
 .menu_background {
-    position:relative;
-    z-index: 1;
+  position: relative;
+  z-index: 1;
 
-    img {
-        position:relative;
-        object-fit: fill;
-        z-index: 0;
-    }
+  img {
+    position: relative;
+    object-fit: contain;
+    z-index: 0;
+  }
 }

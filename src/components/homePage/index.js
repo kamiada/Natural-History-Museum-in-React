@@ -12,6 +12,7 @@ const Home = () => {
             <div className="home_title_wrapper">
 
             <div className="menu_background">
+            <img src={BackgroundImage} alt="museum" ></img>
             <h1>
                WELCOME TO NATURAL HISTORY MUSEUM
                </h1> 
