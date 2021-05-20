@@ -10,20 +10,20 @@ const Home = () => {
       <Layout>
         <img src={BackgroundImage} alt="museum"></img>
         <div className="home_title_wrapper">
-        <div className="title_holder">
+          <div className="title_holder">
             <h1>WELCOME TO NATURAL HISTORY MUSEUM</h1>
             <button className="home_button">
               <p>BOOK YOUR FREE TICKETS IN ADVANCE</p>
             </button>
           </div>
           <div className="home_links">
-          <a>VISIT</a>
-          <a>DISCOVER</a>
-          <a>TRY AT HOME</a>
-          <a>JOIN AND SUPPORT</a>
-          <a>SHOP</a>
-          <a>SCHOOLS</a>
-          <a>OUR SCIENCE</a>
+            <a href="/visit">VISIT</a>
+            <a href="/discover">DISCOVER</a>
+            <a href="/tryathome"> TRY AT HOME</a>
+            <a href="/joinandsupport">JOIN AND SUPPORT</a>
+            <a href="/shop">SHOP</a>
+            <a href="/schools">SCHOOLS</a>
+            <a href="/ourscience">OUR SCIENCE</a>
           </div>
         </div>
       </Layout>
