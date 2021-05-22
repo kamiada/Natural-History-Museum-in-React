@@ -1,4 +1,14 @@
 .content_wrapper {
-    background-image: url("../../images/kevin-mueller-1gUES9J7Ph8-unsplash.jpg");
+    position: relative;
+}
+img {
+    filter: brightness(50%);
+}
+.panel_holder {
+    position:absolute;
+    bottom: 50%;
+    color: white;
+}
+.long_panel {
 
 }
