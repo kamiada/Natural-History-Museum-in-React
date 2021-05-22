@@ -6,7 +6,7 @@ import Content from "./components/contentPage";
 function App() {
   return (
     <Fragment>
-      <Home />
+      {/* <Home /> */}
       <Content />
     </Fragment>
   );
