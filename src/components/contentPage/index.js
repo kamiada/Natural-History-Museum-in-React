@@ -8,7 +8,6 @@ const Content = () => {
     return (
         <>
         <Layout>
-            <img src={ContentPageBackground} alt="museum" ></img>
             <div className="content_wrapper">
                 Content page
             </div>
