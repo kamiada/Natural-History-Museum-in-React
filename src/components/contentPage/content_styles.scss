@@ -44,22 +44,28 @@ img {
 
 //COMPONENT////
 .square {
-    &__text {
+    border: 1px solid black;
+    height: 284px;
+    width: 271px;
+
+    &__title {
         background-color: white;
         font-family: "Rambla", sans-serif;
         font-size: 29px;
         color: black;
         text-align: center;
     }
+    &__text {
+        font-family: "Rambla", sans-serif;
+    }
     &__image {
-        border: 1px solid black;
-        height: 226px;
-        width: 271px;
-
         img {
             filter: brightness(100%);
             height: 150px;
             object-fit:cover;
         }
+    }
+    &__text_holder {
+        
     }
 }
