@@ -17,8 +17,8 @@ function App() {
 
   return (
     <Fragment>
-      <Home ref={section1Ref} />
-      <Content ref={section2Ref}/>
+      <Home ref={section1Ref}  style={{ height: "100vh", margin: 0 }}/>
+      <Content ref={section2Ref} style={{ height: "100vh", margin: 0 }}/>
     </Fragment>
   );
 }

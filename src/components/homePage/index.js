@@ -12,7 +12,7 @@ const Home = () => {
         <div className="home_title_wrapper">
           <div className="title_holder">
             <h1>WELCOME TO NATURAL HISTORY MUSEUM</h1>
-            <button className="home_button">
+            <button className="home_button" onClick={()=>this.props.something}>
               <p>BOOK YOUR FREE TICKETS IN ADVANCE</p>
             </button>
           </div>

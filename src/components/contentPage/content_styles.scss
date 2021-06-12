@@ -5,6 +5,11 @@
     justify-content: space-around;
 
 }
+.layout {
+    background-image: linear-gradient(black, black), url( "../../images/claudio-testa-iqeG5xA96M4-unsplash.jpg");
+    background-position: center;
+    background-blend-mode: soft-light;
+}
 
 .content_wrapper_top {
     display: flex;
