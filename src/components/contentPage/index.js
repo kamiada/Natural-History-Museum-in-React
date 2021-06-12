@@ -17,16 +17,16 @@ const Content = () => {
   return (
     <>
       <Layout>
-        <div className="content_wrapper">
+        <div className="content_wrapper_top">
           <Tile image={ourScience} alt_text="museum" title="Our science" />
           <Tile image={Skull} alt_text="museum" title="Become our member" />
           <Tile image={Hall} alt_text="museum" title="Try at home" />
         </div>
-        {/* <div className="long_panel">
+        <div className="long_panel">
             <div className="title">
               OUR BROKEN PLANET: How we got here and ways to fix it
             </div>
-          </div> */}
+          </div>
         <div className="content_wrapper">
           <Tile
             image={BritishWildlife}

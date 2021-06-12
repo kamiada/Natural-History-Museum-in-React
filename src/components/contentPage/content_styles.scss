@@ -2,14 +2,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Rambla&display=swap");
 .content_wrapper {
     display: flex;
-    position: relative;
-    flex-direction: row;
-    justify-content: center;
-    align-content: space-around;
+    justify-content: space-around;
 
 }
 
-
+.content_wrapper_top {
+    display: flex;
+    justify-content: space-around;
+}
 
 img {
     filter: brightness(30%);
