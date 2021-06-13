@@ -17,8 +17,9 @@ function App() {
   return (
     <Fragment>
     <button onClick={() => scrollTo(section2Ref)}>Scroll</button>
-      <Home ref={section1Ref} />
-      <Content ref={section2Ref}/>
+      <Home/>
+      <Content/>
+      <h1 ref={section2Ref}>test</h1>
     </Fragment>
   );
 }
