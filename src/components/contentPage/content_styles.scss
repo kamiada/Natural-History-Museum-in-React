@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rambla&display=swap");
+body {
+    height: 100vh;
+}
+
 .content_wrapper {
     display: flex;
     justify-content: space-around;

@@ -1,4 +1,3 @@
-import "./App.css";
 import React, { Fragment, useRef } from "react";
 import Home from "../src/components/homePage/index";
 import Content from "./components/contentPage";
@@ -8,17 +7,18 @@ function App() {
   const section2Ref = useRef(null)
   const section3Ref = useRef(null)
 
-  const scrollTo =(ref)=> {
+  const scrollTo = (ref) => {
     window.scroll({
-      top:ref.current.offsetTop,
-      behavior: "smooth"
-    })
-  }
+      top: ref.current.offsetTop,
+      behavior: "smooth",
+    });
+  };
 
   return (
     <Fragment>
-      <Home ref={section1Ref}  style={{ height: "100vh", margin: 0 }}/>
-      <Content ref={section2Ref} style={{ height: "100vh", margin: 0 }}/>
+    <button onClick={() => scrollTo(section2Ref)}>Scroll</button>
+      <Home ref={section1Ref} />
+      <Content ref={section2Ref}/>
     </Fragment>
   );
 }
