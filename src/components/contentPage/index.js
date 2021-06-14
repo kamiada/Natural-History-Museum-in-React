@@ -12,7 +12,7 @@ import BritishWildlife from "../../images/pauline-bernfeld-A-Xd4AADhcU-unsplash.
 import Whale from "../../images/fabio-hanashiro-ur4pyEnPdA0-unsplash.jpg";
 import Spider from "../../images/hello-katuvi-0VDXcJuQATg-unsplash.jpg";
 
-const Content = ( ref ) => {
+const Content = () => {
   return (
     <>
       <Layout>
@@ -21,7 +21,7 @@ const Content = ( ref ) => {
           <Tile image={Skull} alt_text="museum" title="Become our member" />
           <Tile image={Hall} alt_text="museum" title="Try at home" />
         </div>
-        <div ref={ref} className="long_panel">
+        <div className="long_panel">
             <div className="title">
               OUR BROKEN PLANET: How we got here and ways to fix it
             </div>
