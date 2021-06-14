@@ -1,15 +1,21 @@
 import React, { Component } from 'react';
+import "./link_page_style.scss";
 
 class LinkGenerator extends Component {
+    {
+        title_link,
+        link
+    } = const;
     render() {
         return (
-          <div className="square">
-            <div className="square__image">
-              <img src={this.props.image} alt={this.props.alt_text}></img>
-            </div>
-            <div className="square__text_holder">
-            <div className="square__title">{this.props.title}</div>
-              <div className="square__text">{this.props.text}</div>
+            <div className="main_wrapper_links">
+            <div className="links_wrapper">
+              <a href={this.props.href} className="title_link">
+                {this.props.title_link}
+              </a>
+                (
+                    
+                )
             </div>
           </div>
         )
