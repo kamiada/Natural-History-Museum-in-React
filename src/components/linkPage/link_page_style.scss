@@ -1,0 +1,26 @@
+body {
+    height: 100vh;
+}
+.main_wrapper_links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #333333;
+    height: 100vh;
+}
+.links_wrapper {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #333333;
+    flex-direction: column;
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.title_link {
+    font-size: x-large;
+    color: whitesmoke;
+}

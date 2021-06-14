@@ -3,11 +3,9 @@
 body {
     height: 100vh;
 }
-
 .content_wrapper {
     display: flex;
     justify-content: space-around;
-
 }
 .layout {
     background-image: linear-gradient(black, black), url( "../../images/claudio-testa-iqeG5xA96M4-unsplash.jpg");
@@ -57,7 +55,7 @@ img {
     height: 284px;
     width: 271px;
     background-color: white;
-
+    display: inline-table;
     &__title {
         background-color: white;
         font-family: "Rambla", sans-serif;
