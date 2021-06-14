@@ -1,25 +1,16 @@
-import React, { Component } from 'react';
+import React, { Fragment } from "react";
 import "./link_page_style.scss";
 
-class LinkGenerator extends Component {
-    {
-        title_link,
-        link
-    } = const;
-    render() {
-        return (
-            <div className="main_wrapper_links">
-            <div className="links_wrapper">
-              <a href={this.props.href} className="title_link">
-                {this.props.title_link}
-              </a>
-                (
-                    
-                )
-            </div>
-          </div>
-        )
-    }
-}
-
+const LinkGenerator = (mainLinkTitles, linkTitles, hrefs, hrefsSmall) => (
+  <Fragment>
+    <div className="main_wrapper_links">
+      <div className="links_wrapper">
+        <a href={hrefs} className="title_link">
+          {mainLinkTitles}
+        </a>
+        <a href={hrefsSmall}>{linkTitles}</a>
+      </div>
+    </div>
+  </Fragment>
+);
 export default LinkGenerator;
