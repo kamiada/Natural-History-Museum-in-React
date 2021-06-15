@@ -1,0 +1,31 @@
+{
+    "links": [
+        {
+            "linkTitle":"What's on",
+            "href":"/Whatson"
+        },
+        {
+            "linkTitle":"Exhibitions and attractions",
+            "href":"/Exhibitionsandattractions"
+        },
+        {
+            "linkTitle":"Galleries and Museum map",
+            "href":"/Galleriesandmusuemmap"
+        },
+        {
+            "linkTitle":"Access",
+            "href":"/Access"
+        }
+    ],
+    "mainLinks": [
+        {
+            "mainTitle": "VISIT",
+            "href":"/Visit"
+        },        
+        {
+            "mainTitle": "DISCOVER",
+            "href":"/Discover"
+        }
+    
+    ]
+}
