@@ -8,6 +8,7 @@ const linkPage = () => {
     <>
       <Layout>
         <div className="main_wrapper_links">
+
           <div className="links_wrapper">
             <a href="/visit" className="title_link">
               VISIT
@@ -17,6 +18,7 @@ const linkPage = () => {
                 <a href={element.href}>{element.linkTitle}</a>
               ))}
           </div>
+
           <div className="links_wrapper">
             <a href="/visit" className="title_link">
               DISCOVER
@@ -26,6 +28,7 @@ const linkPage = () => {
                 <a href={element.href}>{element.linkTitle}</a>
               ))}
           </div>
+
           <div className="links_wrapper">
             <a href="/visit" className="title_link">
               FOR SCHOOLS
@@ -35,6 +38,7 @@ const linkPage = () => {
                 <a href={element.href}>{element.linkTitle}</a>
               ))}
           </div>
+
           <div className="links_wrapper">
             <a href="/visit" className="title_link">
               CAREERS
@@ -54,6 +58,7 @@ const linkPage = () => {
                 <a href={element.href}>{element.linkTitle}</a>
               ))}
           </div>
+          
           <div className="links_wrapper">
             <a href="/visit" className="title_link">
               TAKE PART
