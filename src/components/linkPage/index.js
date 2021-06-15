@@ -54,33 +54,21 @@ const linkPage = () => {
                 <a href={element.href}>{element.linkTitle}</a>
               ))}
           </div>
-          {/* 
           <div className="links_wrapper">
             <a href="/visit" className="title_link">
               TAKE PART
             </a>
-            <a href="/Whatson">Volunteer</a>
-            <a href="/Whatson">Citizen science</a>
-            <a href="/Whatson"> Identify UK nature </a>
-            <a href="/Whatson"> Centre for UK Biodiversity </a>
-            <a href="/Whatson">Wildlife Photographer of the Year competition</a>
+            {data &&
+              data.links_to_TakePart.map((element) => (
+                <a href={element.href}>{element.linkTitle}</a>
+              ))}
           </div>
-
-          <div className="links_wrapper">
-            <a href="/visit" className="title_link">
-              ABOUT US
-            </a>
-            <a href="/Whatson"> News </a>
-            <a href="/Whatson">  Press office  </a>
-            <a href="/Whatson">  Governance  </a>
-            <a href="/Whatson">  Contact us  </a>
-          </div>
-
+          
           <div className="links_wrapper">
             <a href="/visit" className="title_link">
               ONLINE SHOP
             </a>
-            </div> */}
+            </div>
         </div>
       </Layout>
     </>

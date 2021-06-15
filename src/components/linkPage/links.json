@@ -101,5 +101,45 @@
             "linkTitle":"Corporate partnership",
             "href":"/CorporatePartnership"
         }
+    ],
+    "links_to_TakePart": [
+        {
+            "linkTitle":"Volunteer",
+            "href":"/Volunteer"
+        },
+        {
+            "linkTitle":"Citizen science",
+            "href":"/CitizenScience"
+        },
+        {
+            "linkTitle":"Identify UK nature",
+            "href":"/IdentifyUKNature"
+        },
+        {
+            "linkTitle":"Centre for UK Biodiversity",
+            "href":"/CentreForUKBiodiversity"
+        },
+        {
+            "linkTitle":"Wildlife Photographer of the Year competition",
+            "href":"/WildlifePhotographerOfTheYearCompetition"
+        }
+    ],
+    "links_to_AboutUs": [
+        {
+            "linkTitle":"News",
+            "href":"/News"
+        },
+        {
+            "linkTitle":"Press office",
+            "href":"/PressOffice"
+        },
+        {
+            "linkTitle":"Governance",
+            "href":"/Governance"
+        },
+        {
+            "linkTitle":"Contact us",
+            "href":"/ContactUs"
+        }
     ]
 }
