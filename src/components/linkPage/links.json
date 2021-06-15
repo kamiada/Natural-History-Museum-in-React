@@ -1,5 +1,5 @@
 {
-    "links": [
+    "links_to_visit": [
         {
             "linkTitle":"What's on",
             "href":"/Whatson"
@@ -17,15 +17,89 @@
             "href":"/Access"
         }
     ],
-    "mainLinks": [
+    "links_to_discover": [
         {
-            "mainTitle": "VISIT",
-            "href":"/Visit"
-        },        
+            "linkTitle":"News",
+            "href":"/News"
+        },
         {
-            "mainTitle": "DISCOVER",
-            "href":"/Discover"
+            "linkTitle":"Anthropocene",
+            "href":"/Anthropocene"
+        },
+        {
+            "linkTitle":"British Wildlife",
+            "href":"/BritishWildlife"
+        },
+
+        {
+            "linkTitle":"Collections",
+            "href":"/Collections"
+        },
+        {
+            "linkTitle":"Dinosaurs",
+            "href":"/Dinosaurs"
+        },
+        {
+            "linkTitle":"Human Evolution",
+            "href":"/HumanEvolution"
+        },
+        {
+            "linkTitle":"Oceans",
+            "href":"/Oceans"
+        },
+        {
+            "linkTitle":"Space",
+            "href":"/Space"
+        },
+        {
+            "linkTitle":"What on Earth",
+            "href":"/Whatonearth"
+        },
+        {
+            "linkTitle":"Video",
+            "href":"/Video"
         }
-    
+    ],
+    "links_to_forSchool": [
+        {
+            "linkTitle":"Things to do",
+            "href":"/Thingstodo"
+        },
+        {
+            "linkTitle":"Essential visiting information",
+            "href":"/EsentialVisitingInformation"
+        },
+        {
+            "linkTitle":"Teaching resources",
+            "href":"/TeachingResources"
+        }
+    ],
+    "links_to_careers": [
+        {
+            "linkTitle":"Current vacancies",
+            "href":"/CurrentVacancies"
+        }
+    ],
+    "links_to_JoinAndSupport": [
+        {
+            "linkTitle":"Membership",
+            "href":"/Membership"
+        },
+        {
+            "linkTitle":"Gift membership",
+            "href":"/GiftMembership"
+        },
+        {
+            "linkTitle":"Make a donation",
+            "href":"/MakeADonation"
+        },
+        {
+            "linkTitle":"Become a Patron",
+            "href":"/BecomAPatron"
+        },
+        {
+            "linkTitle":"Corporate partnership",
+            "href":"/CorporatePartnership"
+        }
     ]
 }
