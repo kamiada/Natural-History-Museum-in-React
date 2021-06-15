@@ -69,7 +69,40 @@ const linkPage = () => {
               ONLINE SHOP
             </a>
             </div>
+
+            <div className="links_wrapper">
+            <a href="/visit" className="title_link">
+             OUR SCIENCE
+            </a>
+            {data &&
+              data.links_to_OurScience.map((element) => (
+                <a href={element.href}>{element.linkTitle}</a>
+              ))}
+            </div>
+
+            <div className="links_wrapper">
+            <a href="/visit" className="title_link">
+             BUSINESS SERVICES
+            </a>
+            {data &&
+              data.links_to_BusinessServices.map((element) => (
+                <a href={element.href}>{element.linkTitle}</a>
+              ))}
+            </div>
+
+            <div className="links_wrapper">
+            <a href="/visit" className="title_link">
+             LEGAL
+            </a>
+            {data &&
+              data.links_to_Legal.map((element) => (
+                <a href={element.href}>{element.linkTitle}</a>
+              ))}
+            </div>
+
         </div>
+        
+
       </Layout>
     </>
   );

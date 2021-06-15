@@ -141,5 +141,87 @@
             "linkTitle":"Contact us",
             "href":"/ContactUs"
         }
+    ],
+    "links_to_OurScience": [
+        {
+            "linkTitle":"Our work",
+            "href":"/OurWork"
+        },
+        {
+            "linkTitle":"Data",
+            "href":"/Data"
+        },
+        {
+            "linkTitle":"Collections",
+            "href":"/Collections"
+        },
+        {
+            "linkTitle":"Department and staff",
+            "href":"/Departmentandstaff"
+        },
+        {
+            "linkTitle":"Events and seminars",
+            "href":"/Eventsandseminars"
+        },
+        {
+            "linkTitle":"Courses and training",
+            "href":"/Coursesandtraning"
+        },
+        {
+            "linkTitle":"Library and Archives",
+            "href":"/Libraryandarchives"
+        }
+    ],
+    "links_to_BusinessServices": [
+        {
+            "linkTitle":"Touring exhibitions",
+            "href":"/Touringexhibitions"
+        },
+        {
+            "linkTitle":"Consulting",
+            "href":"/Consulting"
+        },
+        {
+            "linkTitle":"Publishing",
+            "href":"/Publishing"
+        },
+        {
+            "linkTitle":"Film locations",
+            "href":"/Filmlocations"
+        },
+        {
+            "linkTitle":"NHM images",
+            "href":"/Nhmimages"
+        },
+        {
+            "linkTitle":"Venue hire",
+            "href":"/Venuehire"
+        },
+        {
+            "linkTitle":"Licensing",
+            "href":"/Licensing"
+        }
+    ],
+    "links_to_Legal": [
+        {
+            "linkTitle":"Cookie preferences",
+            "href":"/Cookiepreferences"
+        },
+        {
+            "linkTitle":"Privacy notice",
+            "href":"/Privacynotice"
+        },
+        {
+            "linkTitle":"Website accessibility statement",
+            "href":"/Websiteaccessibilitystatement"
+        },
+        {
+            "linkTitle":"Terms and conditions",
+            "href":"/Termsandconditions "
+        },
+        {
+            "linkTitle":"Modern Slavery Statement",
+            "href":"/Modernslaverystatement"
+        }
     ]
 }
