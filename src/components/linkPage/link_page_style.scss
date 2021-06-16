@@ -11,7 +11,6 @@ body {
 .links_wrapper {
     padding: 10px;
     display: flex;
-    justify-content: space-around;
     background-color: #333333;
     flex-direction: column;
     width: 80%;
@@ -24,4 +23,9 @@ a {
 .title_link {
     font-size: x-large;
     color: whitesmoke;
+}
+img {
+    max-width: 100%;
+    display: inline-block;
+    vertical-align: middle;
 }

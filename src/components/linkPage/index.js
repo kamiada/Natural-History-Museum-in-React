@@ -2,12 +2,17 @@ import React from "react";
 import Layout from "../Layout/layout";
 import "./link_page_style.scss";
 import data from "./links.json";
+import logo from '../../images/nhm-logo-white.svg';
 
 const linkPage = () => {
   return (
     <>
       <Layout>
         <div className="main_wrapper_links">
+
+        <div className="links_wrapper">
+           <img src={logo} alt="NHM logo"></img>
+        </div>
 
           <div className="links_wrapper">
             <a href="/visit" className="title_link">
@@ -58,7 +63,7 @@ const linkPage = () => {
                 <a href={element.href}>{element.linkTitle}</a>
               ))}
           </div>
-          
+
           <div className="links_wrapper">
             <a href="/visit" className="title_link">
               TAKE PART
