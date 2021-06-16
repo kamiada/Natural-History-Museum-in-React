@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rambla&display=swap");
 body {
     height: 100vh;
 }
@@ -19,13 +21,11 @@ a {
     color: white;
     text-decoration: none;
     font-size: 18px;
+    font-family: "Rambla", sans-serif;
+    padding: 2px;
 }
 .title_link {
     font-size: x-large;
     color: whitesmoke;
-}
-img {
-    max-width: 100%;
-    display: inline-block;
-    vertical-align: middle;
+    font-family: "Rambla", sans-serif;
 }
