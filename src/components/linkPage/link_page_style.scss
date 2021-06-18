@@ -8,6 +8,19 @@ body {
     flex-direction: row;
     justify-content: space-around;
     background-color: #333333;
+    &___top {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: #333333;
+        padding-top: 50px;
+        p {
+            color: white;
+            font-size: 18px;
+            font-family: "Rambla", sans-serif;
+
+        }
+    }
 }
 .links_wrapper {
     padding: 10px;
