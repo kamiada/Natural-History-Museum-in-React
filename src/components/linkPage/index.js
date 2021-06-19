@@ -12,14 +12,15 @@ const linkPage = () => {
           <div className="main_wrapper_links___top">
             <div className="links_wrapper">
               <img src={logo} alt="NHM logo"></img>
-              <p>Cromwell Road London </p>
-              <p>SW7 5BD</p>
+              <p >Cromwell Road </p>
+              <p className="address_p">London</p>
+              <p className="address_p">SW7 5BD</p>
               <a href="/fakeLink" className="title_link">
                 The Natural History Museum at Tring
               </a>
               <p>Akeman Street</p>
-              <p>Tring Hertfordshire</p> 
-              <p>HP23 6AP</p>
+              <p className="address_p">Tring Hertfordshire</p> 
+              <p className="address_p">HP23 6AP</p>
             </div>
 
             <div className="links_wrapper">
