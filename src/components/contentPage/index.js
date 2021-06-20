@@ -22,8 +22,9 @@ const Content = () => {
           <Tile image={Hall} alt_text="museum" title="Try at home" />
         </div>
         <div className="long_panel">
+        <h3>OUR BROKEN PLANET: How we got here and ways to fix it</h3>
+
             <div className="title">
-              OUR BROKEN PLANET: How we got here and ways to fix it
             </div>
           </div>
         <div className="content_wrapper">
