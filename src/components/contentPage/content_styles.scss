@@ -36,8 +36,7 @@ img {
     font-size: 29px;
     background-image: url("../../images/maxim-tolchinskiy-W3y2crFkVIs-unsplash.jpg");
 }
-.title {
-    position: relative;
+.shadow_box {
     width: 500px;
     height: 83px;
     background-color: black;
@@ -45,9 +44,16 @@ img {
     opacity: 0.3;
     top: 20px;
     float:right;
-
 }
 
+.title {
+    width: auto;
+    h3 {
+        opacity: 100%;
+        color:black;
+        background-color: transparent;
+    }
+}
 
 
 //COMPONENT////
