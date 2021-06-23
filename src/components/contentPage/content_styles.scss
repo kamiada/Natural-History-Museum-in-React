@@ -29,7 +29,8 @@ img {
     width: 99%;
 }
 .long_panel {
-    width: 100%;
+    border: 5px white solid;
+    width: 99%;
     height: 220px;
     margin: 20px 20px 20px 0;
     font-family: "Rambla", sans-serif;
@@ -37,6 +38,8 @@ img {
     background-image: url("../../images/maxim-tolchinskiy-W3y2crFkVIs-unsplash.jpg");
 }
 .shadow_box {
+    position: absolute;
+    z-index: -1;
     width: 500px;
     height: 83px;
     background-color: black;
@@ -47,8 +50,15 @@ img {
 }
 
 .title {
-    width: auto;
+    width: 500px;
+    float:right;
+    position: relative;
+    box-shadow:0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    opacity: 0.3;
+
     h3 {
+        position: relative;
+        z-index: 1;
         opacity: 100%;
         color:black;
         background-color: transparent;

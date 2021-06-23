@@ -25,8 +25,6 @@ const Content = () => {
         <div className="title">
             <h3>OUR BROKEN PLANET: How we got here and ways to fix it</h3>
             </div>
-            <div className="shadow_box">
-            </div>
           </div>
         <div className="content_wrapper">
           <Tile
