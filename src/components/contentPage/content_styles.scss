@@ -50,18 +50,22 @@ img {
 }
 
 .title {
-    width: 500px;
-    float:right;
-    position: relative;
-    box-shadow:0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
-    opacity: 0.3;
-
     h3 {
         position: relative;
         z-index: 1;
         opacity: 100%;
         color:black;
         background-color: transparent;
+        text-align: center;
+    }
+    &___exhbition_button {
+        align-items: center;
+        background-color: white;
+        font-family: "Rambla", sans-serif;
+        font-size: 40px;
+        border: black 5px solid;
+        width: 500px;
+        height: auto;
     }
 }
 
