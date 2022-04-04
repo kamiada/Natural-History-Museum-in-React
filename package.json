@@ -2,7 +2,7 @@
   "name": "natural_history",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kamiada.github.io/redesign-natural-history-museum",
+  "homepage": "https://kamiada.github.io/Natural-History-Museum-in-React/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.7",
