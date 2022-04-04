@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/redesign-natural-history-museum/static/css/main.142db05c.chunk.css",
+    "main.js": "/redesign-natural-history-museum/static/js/main.8f236029.chunk.js",
+    "main.js.map": "/redesign-natural-history-museum/static/js/main.8f236029.chunk.js.map",
+    "runtime-main.js": "/redesign-natural-history-museum/static/js/runtime-main.b1ceedf7.js",
+    "runtime-main.js.map": "/redesign-natural-history-museum/static/js/runtime-main.b1ceedf7.js.map",
+    "static/js/2.a65f5a26.chunk.js": "/redesign-natural-history-museum/static/js/2.a65f5a26.chunk.js",
+    "static/js/2.a65f5a26.chunk.js.map": "/redesign-natural-history-museum/static/js/2.a65f5a26.chunk.js.map",
+    "static/js/3.d103ec1d.chunk.js": "/redesign-natural-history-museum/static/js/3.d103ec1d.chunk.js",
+    "static/js/3.d103ec1d.chunk.js.map": "/redesign-natural-history-museum/static/js/3.d103ec1d.chunk.js.map",
+    "index.html": "/redesign-natural-history-museum/index.html",
+    "static/css/main.142db05c.chunk.css.map": "/redesign-natural-history-museum/static/css/main.142db05c.chunk.css.map",
+    "static/js/2.a65f5a26.chunk.js.LICENSE.txt": "/redesign-natural-history-museum/static/js/2.a65f5a26.chunk.js.LICENSE.txt",
+    "static/media/armando-ascorve-morales-ypZI_CA91M0-unsplash.6714a071.jpg": "/redesign-natural-history-museum/static/media/armando-ascorve-morales-ypZI_CA91M0-unsplash.6714a071.jpg",
+    "static/media/content_styles.scss": "/redesign-natural-history-museum/static/media/maxim-tolchinskiy-W3y2crFkVIs-unsplash.717f5c48.jpg",
+    "static/media/fabio-hanashiro-ur4pyEnPdA0-unsplash.72009260.jpg": "/redesign-natural-history-museum/static/media/fabio-hanashiro-ur4pyEnPdA0-unsplash.72009260.jpg",
+    "static/media/hello-katuvi-0VDXcJuQATg-unsplash.f4b80e58.jpg": "/redesign-natural-history-museum/static/media/hello-katuvi-0VDXcJuQATg-unsplash.f4b80e58.jpg",
+    "static/media/home_style.scss": "/redesign-natural-history-museum/static/media/kevin-mueller-1gUES9J7Ph8-unsplash.f4069c09.jpg",
+    "static/media/mathias-p-r-reding-JvjPYMUr3Pk-unsplash.ab6e4b38.jpg": "/redesign-natural-history-museum/static/media/mathias-p-r-reding-JvjPYMUr3Pk-unsplash.ab6e4b38.jpg",
+    "static/media/nhm-logo-white.88879ff9.svg": "/redesign-natural-history-museum/static/media/nhm-logo-white.88879ff9.svg",
+    "static/media/paul-minami-_AH4fdMyYIg-unsplash.ad53aab5.jpg": "/redesign-natural-history-museum/static/media/paul-minami-_AH4fdMyYIg-unsplash.ad53aab5.jpg",
+    "static/media/pauline-bernfeld-A-Xd4AADhcU-unsplash.ebf39cc5.jpg": "/redesign-natural-history-museum/static/media/pauline-bernfeld-A-Xd4AADhcU-unsplash.ebf39cc5.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b1ceedf7.js",
+    "static/js/2.a65f5a26.chunk.js",
+    "static/css/main.142db05c.chunk.css",
+    "static/js/main.8f236029.chunk.js"
+  ]
+}
